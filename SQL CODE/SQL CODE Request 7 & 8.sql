@@ -1,6 +1,7 @@
 # REQUEST 7
 
-# Get the complete report of the Gross sales amount for the customer “Atliq Exclusive” for each month . This analysis helps to get an idea of low and high-performing months and take strategic decisions.
+# Get the complete report of the Gross sales amount for the customer “Atliq Exclusive” for each month . 
+# This analysis helps to get an idea of low and high-performing months and take strategic decisions.
 
 SELECT YEAR(date),MONTHNAME(date),ROUND(SUM(sold_quantity*gross_price)/10000,1) AS Gross_sales_amount
 FROM gdb023.fact_sales_monthly AS fsm

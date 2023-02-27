@@ -1,11 +1,15 @@
 # REQUEST 3
 
+#Provide a report with all the unique product counts for each segment and sort them in descending order of product counts.
+
 SELECT segment,COUNT(product) AS product_count
 FROM dim_product
 GROUP BY segment 
 ORDER BY product_count DESC;
 
 # REQUEST 4
+
+#Follow-up: Which segment had the most increase in unique products in 2021 vs 2020?
 
 WITH A AS(SELECT segment,COUNT(DISTINCT product_code) AS product_count_2020
 FROM dim_product
@@ -27,4 +31,4 @@ ROUND(((product_count_2021-product_count_2020)/product_count_2020)*100,1) AS Dif
 FROM A
 JOIN B
 USING (segment)
-ORDER BY Difference_percentage DESC
+ORDER BY Difference_percentage DESC;
