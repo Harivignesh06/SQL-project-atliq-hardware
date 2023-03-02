@@ -34,13 +34,3 @@ GROUP BY customer_code,customer
 ORDER BY Average_discount_percentage DESC
 LIMIT 5;
 
-
-
-
-
-
-
-
-
-
-

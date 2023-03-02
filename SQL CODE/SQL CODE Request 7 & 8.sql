@@ -3,7 +3,7 @@
 # Get the complete report of the Gross sales amount for the customer “Atliq Exclusive” for each month . 
 # This analysis helps to get an idea of low and high-performing months and take strategic decisions.
 
-SELECT YEAR(date),MONTHNAME(date),ROUND(SUM(sold_quantity*gross_price)/10000,1) AS Gross_sales_amount
+SELECT YEAR(date) AS Year,MONTHNAME(date) AS Month,ROUND(SUM(sold_quantity*gross_price),1) AS Gross_sales_amount
 FROM gdb023.fact_sales_monthly AS fsm
 JOIN fact_gross_price AS fgp
 ON fgp.product_code=fsm.product_code
@@ -29,3 +29,4 @@ from fact_sales_monthly
 WHERE fiscal_year= 2020
 GROUP BY Quarters
 ORDER BY SUM(sold_quantity) DESC;
+
