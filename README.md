@@ -10,6 +10,6 @@ https://app.powerbi.com/view?r=eyJrIjoiYmRjODBjY2EtOWJkMC00MTY4LTkzMjAtNjcyYzc4Z
 
 Check to my linkedin post
 
-https://www.linkedin.com/posts/harivignesh-m-6049a7191_codebasicsresumeprojectchallenge-codebasicsresumeprojectchallenge4-activity-7037025790441517057-YXn_?utm_source=share&utm_medium=member_desktop
+https://www.linkedin.com/posts/harivignesh-m-6049a7191_codebasicsresumeprojectchallenge-codebasicsresumeprojectchallenge4-activity-7037314339464220673-xDqu?utm_source=share&utm_medium=member_desktop
 
 Thank you
